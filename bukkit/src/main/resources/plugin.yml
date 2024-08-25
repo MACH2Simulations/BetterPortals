@@ -1,10 +1,10 @@
 name: BetterPortals
-version: 0.13.0
+version: 0.13.1
 main: com.lauriethefish.betterportals.bukkit.BetterPortals
 description: "Plugin which allows nether portals to be seen through, and allows custom portal creation"
 depend:
   - ProtocolLib
-api-version: "1.20"
+api-version: "1.21"
 softdepend:
   - Multiverse-Core
   - My_Worlds

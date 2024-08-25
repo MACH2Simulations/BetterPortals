@@ -40,7 +40,7 @@ public class BlockDataUtil {
         Class<?> blockEntityState = CraftBukkitClassUtil.findCraftBukkitClass("block.CraftBlockEntityState");
         Class<?> nmsTileEntity = ReflectionUtil.findClass("net.minecraft.world.level.block.entity.TileEntity");
         GET_TILE_ENTITY = ReflectionUtil.findMethod(blockEntityState, "getTileEntity");
-        GET_UPDATE_PACKET = ReflectionUtil.findMethod(nmsTileEntity, VersionUtil.isMcVersionAtLeast("1.18.0") ? "h" : "getUpdatePacket");
+        GET_UPDATE_PACKET = ReflectionUtil.findMethod(nmsTileEntity, VersionUtil.isMcVersionAtLeast("1.18.0") ? "j" : "getUpdatePacket");
     }
 
     /**

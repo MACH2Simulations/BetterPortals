@@ -8,6 +8,6 @@ pluginManagement {
 }
 
 rootProject.name = 'BetterPortals'
-gradle.ext.versionName = '0.13.0'
+gradle.ext.versionName = '0.13.1'
 
 include 'bukkit', 'bungee', 'shared', 'api', 'final', 'velocity', 'proxy'
